@@ -3,3 +3,4 @@
 
 # Ignore compiled and byte code files
 *.class
+Test*

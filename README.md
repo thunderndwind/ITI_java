@@ -5,3 +5,7 @@ Welcome to my repository for the ITI Java core course. This repository contains 
 ## Labs
 
 - **[Lab 1](lab1/README.md)**: discover Java.
+
+- **[Lab 2](lab2/README.md)**: Java types.
+
+- **[Lab 3](lab3/README.md)**: Java Strings.
