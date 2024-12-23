@@ -1,4 +1,4 @@
-# Lab 1: Java types.
+# Lab 2: Java types.
 
 ## Objectives:
 

@@ -1,4 +1,4 @@
-# Lab 1: Java Strings.
+# Lab 3: Java Strings.
 
 ## Objectives:
 
