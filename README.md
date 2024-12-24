@@ -11,3 +11,7 @@ Welcome to my repository for the ITI Java core course. This repository contains 
 - **[Lab 3](lab3/README.md)**: Java Strings.
 
 - **[Lab 4](lab4/README.md)**: Java Interfaces.
+
+- **[Lab s](labs/README.md)**: Java Exceptions.
+
+- **[Lab 6](lab6/README.md)**: Java Generics.
