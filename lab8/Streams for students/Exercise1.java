@@ -9,7 +9,7 @@ public class Exercise1 {
 
       public static void main(String[] args) {
             CountryDao countryDao = InMemoryWorldDao.getInstance();
-
+            // countryDao.findCountriesByContinent(null)
             // write your answer here
             List<City> maxPopulationCities = countryDao.findAllCountries().stream().map(Country::getCities)
                         .map(cities -> cities.stream()
