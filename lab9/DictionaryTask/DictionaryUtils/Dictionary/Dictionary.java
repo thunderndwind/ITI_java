@@ -19,6 +19,7 @@ public class Dictionary {
     }
 
     public void addWord(String word) throws NoWordGivenException, NotConvenienceLengthException {
+
         if (word.isEmpty()) {
             throw new NoWordGivenException("The passed word is empty.");
         }
@@ -27,9 +28,9 @@ public class Dictionary {
             throw new NotConvenienceLengthException("The passed word is less than 2 letters.");
         }
 
-        char firstLetter = word.charAt(0);
+        char firstLetter = word.toLowerCase().charAt(0);
         dictionary.putIfAbsent(firstLetter, new TreeSet<>());
-        dictionary.get(firstLetter).add(word);
+        dictionary.get(firstLetter).add(word.toLowerCase());
     }
 
     public SortedSet<String> getWordsByLetter(char letter) throws NoWordsAvailableException, EmptyDictionaryException {

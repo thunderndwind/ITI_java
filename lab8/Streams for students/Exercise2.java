@@ -20,16 +20,17 @@ public class Exercise2 {
                 .filter(Optional::isPresent).map(city -> city.get())
                 .collect(Collectors.toList());
 
-        List<City> maxPopulationCitiesOfContents = countryDao.getAllContinents()
-                .stream()
-                .map(content -> maxPopulationCities
-                        .stream()
-                        .filter(city -> countryDao.findCountryByCode(city.getCountryCode()).getContinent()
-                                .equals(content))
-                        .max(Comparator.comparing(City::getPopulation)))
-                .filter(Optional::isPresent)
-                .map(city -> city.get())
-                .collect(Collectors.toList());
+        // List<City> maxPopulationCitiesOfContents = countryDao.getAllContinents()
+        // .stream()
+        // .map(content -> maxPopulationCities
+        // .stream()
+        // .filter(city ->
+        // countryDao.findCountryByCode(city.getCountryCode()).getContinent()
+        // .equals(content))
+        // .max(Comparator.comparing(City::getPopulation)))
+        // .filter(Optional::isPresent)
+        // .map(city -> city.get())
+        // .collect(Collectors.toList());
 
         // second
         // List<City> maxPopulationCitiesOfContents = countryDao.findAllCountries()
